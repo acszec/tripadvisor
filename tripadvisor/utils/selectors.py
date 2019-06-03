@@ -1,0 +1,5 @@
+selector_raw = "//*[@id='FILTERED_LIST']//div[@class='listing_details']"
+selector_title = "//div[@class='listing_title ']/a/text()"
+selector_link = "//div[@class='listing_title ']/a/@href"
+selector_image = "//a[@class='photo_link ']/img[@class='photo_image']/@src"
+selector_page = "//div[@class='pageNumbers']/a[@data-page-number='|V|']"
